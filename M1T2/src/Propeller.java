@@ -1,0 +1,3 @@
+interface Propeller {
+    void hasPropeller();
+}
