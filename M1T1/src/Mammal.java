@@ -1,10 +1,9 @@
-abstract class Mammal implements IAnimal {
-    @Override
-    public void haveSpine() {
-        System.out.println("Это млекопитающее имеет позвоночник.");
-    }
-    public abstract void hasFur();
+abstract class Mammal implements Animal {
 
     @Override
-    public abstract void liveInWater();
+    public boolean hasSpine() {
+        return true;
+    }
+
+    public abstract boolean hasFur();
 }

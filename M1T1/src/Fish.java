@@ -1,11 +1,7 @@
-class Fish implements IAnimal {
-    @Override
-    public void haveSpine() {
-
-    }
+class Fish implements Animal{
 
     @Override
-    public void liveInWater() {
-        System.out.println("Рыба живет в воде.");
+    public boolean hasSpine(){
+        return true;
     }
 }
