@@ -12,7 +12,7 @@ class MyHashSet {
 
     public void add(Object value) {
         if (contains(value)) {
-            return; // Элемент уже существует
+            return;
         }
         if (size == elements.length) {
             resize();
@@ -23,8 +23,8 @@ class MyHashSet {
     public void remove(Object value) {
         for (int i = 0; i < size; i++) {
             if (elements[i].equals(value)) {
-                elements[i] = elements[size - 1]; // Заменяем удаляемый элемент последним
-                elements[size - 1] = null; // Удаляем ссылку на последний элемент
+                elements[i] = elements[size - 1];
+                elements[size - 1] = null;
                 size--;
                 return;
             }

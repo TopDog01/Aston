@@ -31,7 +31,7 @@ class MyArrayList {
         for (int i = index; i < size - 1; i++) {
             elements[i] = elements[i + 1];
         }
-        elements[size - 1] = null; // Удаляем ссылку на последний элемент
+        elements[size - 1] = null;
         size--;
     }
 
