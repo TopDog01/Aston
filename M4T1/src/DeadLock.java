@@ -1,3 +1,4 @@
+
 public class DeadLock {
 
     private static final Object resource1 = new Object();
@@ -6,7 +7,7 @@ public class DeadLock {
     /**
      * Основной метод, запускающий два потока
      *
-     * @param arg аргументы командной строки (не используются)
+     * @param args аргументы командной строки (не используются)
      */
 
     public static void main(String[] args) {
